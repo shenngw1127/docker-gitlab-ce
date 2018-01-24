@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-ce:10.0.7-ce.0
+FROM gitlab/gitlab-ce:10.2.7-ce.0
 MAINTAINER Wang Sheng <shengw1127@gmail.com>
 
 RUN apt-get clean && apt-get update && apt-get install -y locales
